@@ -1,0 +1,796 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+}
+header{
+    background-image: url(../images/mac_banner_final.svg);
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+    padding-top: 40px;
+}
+.logo img{
+    max-width: 100%;
+}
+nav{
+    width: 80%;
+    text-align: right;
+    float: left;
+    padding: 50px 0;
+}
+.menu{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: #EE3D49;
+    padding: 3px;
+}
+.heading{
+    
+text-align: center;
+    
+width: 100%;
+    
+padding-top: 150px;
+    
+padding-bottom: 150px;
+}
+.heading h1{
+    margin: 0;
+    font-size: 60px;
+    color: #1565c0;
+    padding-bottom: 100px;
+}
+.heading a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ddd;
+    background-color: #1565c0;
+    display: inline-block;
+    padding: 20px 40px;
+}
+.logos{
+    width: 100%;
+    background-color: #fff;
+}
+.logos ul{
+   
+}
+.logos ul li{
+    display: inline-block;
+    list-style: none;
+    width: 6.8%;
+}
+.logos ul li a{}
+.logos ul li a img{
+    max-width: 100%;
+}
+.feature-section{
+    padding: 30px 0;
+    overflow: hidden;
+   background-color: #F8F9FA
+}
+
+.feature{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.feature h2{
+    text-transform: capitalize;
+    margin: 10px 0;
+    color: #1565c0;
+    font-size: 30px;
+}
+.feature p{
+    color: #1565c0;
+    margin: 10px 0;
+}
+.feature a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #EE3D49;
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #EE3D49;
+}
+.feature-box1{
+    background-image: url(../images/Macdigital+Strategy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px;
+    box-shadow: 0 0 5px;
+}
+.feature-box2{
+    background-image: url(../images/Mac+Digital+Content.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px;
+    box-shadow: 0 0 5px;
+}
+.feature-box3{
+    background-image: url(../images/Macdigital+Training.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px;
+    box-shadow: 0 0 5px;
+}
+.Case-Studies-section{
+    background-color: #F8F9FA;
+}
+.head{
+    padding: 80px;
+
+}
+.head span{
+}
+.head h3{
+    color: #1565c0;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.Case-Studies{
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+.case1{
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case1 img{
+    max-width: 100%;
+}
+.case2{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case2 img{
+    max-width: 100%;
+}
+.case3{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case3 img{
+    max-width: 100%;
+}
+.case4{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case4 img{
+    max-width: 100%;
+}
+.case5{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case5 img{
+    max-width: 100%;
+}
+.case6{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case6 img{
+    max-width: 100%;
+}
+.case7{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case7 img{
+    max-width: 100%;
+}
+.content{
+    width: 90%;
+    text-align: left;
+    padding-left: 25px;
+}
+.content .hidden-link{
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 0;
+    display: inline-block;
+    border: 0;
+}
+.content h2{
+    color: #1565c0;
+    padding: 20px 0;
+}
+.content a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #EE3D49;
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #EE3D49;
+}
+.more-case{
+    width: 53%;
+    margin: auto;
+}
+.more-case a{
+    display: inline-block;
+    padding: 15px 40px;
+    margin: 200px 0 100px 0;
+    border: 2px solid #ee3d49;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #ee3d49;
+    color: #f8f9fa;
+}
+.speach{
+    padding: 100px;
+    text-align: center;
+}
+.speach p{
+    color: #1565c3;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.speach h4{
+    padding: 28px;
+    font-size: 22px;
+    color: #1565c3;
+}
+.our-team{
+    background-image: url(../images/mac_banner_final.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:80px;
+}
+.our-team-head{
+     padding: 80px;
+}
+.our-team-head span{}
+.our-team-head h3{ 
+    color: #1565c0;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.team-member-id{
+    overflow: hidden;
+}
+.tear-member1{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.tear-member1 img{
+    max-width: 100%
+}
+.tear-member2{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.tear-member2 img{
+    max-width: 100%
+}
+.tear-member3{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.tear-member3 img{
+    max-width: 100%
+}
+.tear-member4{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.tear-member4 img{
+    max-width: 100%
+}
+.profession{
+    padding: 30px 20px;
+    background-color: #fff;
+}
+.profession h5{
+    color: #1565c0;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.profession p{
+    color: #6ab5ecd1;
+    font-size: 11px;
+    padding: 10px 0;
+}
+.profession a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #EE3D49;
+    display: inline-block;
+    padding: 4px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #EE3D49;
+}
+.chat-link{
+    background-color: #F8F9FA;
+    padding: 100px 0;
+}
+.chat-linking{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+.chat-linking h6{
+    font-size: 30px;
+    color: #ee3d49;
+}
+.chat-linking a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ee3d49;
+    border-bottom: 1px solid;
+}
+.contact-us{
+
+overflow: hidden;
+
+padding: 100px 0;
+}
+.address{
+    float: left;
+    width: 35%;
+}
+.address a{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #1565c0;
+    padding: 15px;
+}
+
+.social{
+    float: left;
+    width: 35%;
+    margin-left: 300px;
+}
+.social ul{
+}
+.social ul li{
+    font-size: 22px;
+}
+.social ul li a{
+    padding: 10px;
+    color: #1565c0;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+}
+header{
+    background-image: url(../images/mac_banner_final.svg);
+    max-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+    padding-top: 40px;
+}
+.logo img{
+    max-width: 100%;
+}
+nav{
+    width: 80%;
+    text-align: right;
+    float: left;
+    padding: 50px 0;
+}
+.menu{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: #EE3D49;
+    padding: 3px;
+}
+.heading{
+    
+text-align: center;
+    
+width: 100%;
+    
+padding-top: 100px;
+    
+padding-bottom: 120px;
+}
+.heading h1{
+    margin: 0;
+    font-size: 60px;
+    color: #1565c0;
+    padding-bottom: 100px;
+    font-weight: 500;
+}
+.heading a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ddd;
+    background-color: #1565c0;
+    display: inline-block;
+    padding: 6px 47px;
+}
+.logos{
+    width: 100%;
+    background-color: #fff;
+}
+.logos ul{
+   
+}
+.logos ul li{
+    display: inline-block;
+    list-style: none;
+    width: 6.8%;
+}
+.logos ul li a{}
+.logos ul li a img{
+    max-width: 100%;
+}
+.feature-section{
+    padding: 30px 0;
+    overflow: hidden;
+   background-color: #F8F9FA
+}
+
+.feature{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.feature h2{
+    text-transform: capitalize;
+    color: #1565c0;
+    font-size: 24px;
+    padding-top: 40px;
+}
+.feature p{
+    color: #1565c0;
+    margin: 10px 0;
+}
+.feature a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #EE3D49;
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #EE3D49;
+}
+.feature-box1{
+    background-image: url(../images/Macdigital+Strategy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px;
+    box-shadow: 0 0 5px;
+}
+.feature-box2{
+    background-image: url(../images/Mac+Digital+Content.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px;
+    box-shadow: 0 0 5px;
+}
+.feature-box3{
+    background-image: url(../images/Macdigital+Training.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px;
+    box-shadow: 0 0 5px;
+}
+.Case-Studies-section{
+    background-color: #F8F9FA;
+}
+.head{
+    padding: 80px;
+
+}
+.head span{
+}
+.head h3{
+    color: #1565c0;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.Case-Studies{
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+.case1{
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case1 img{
+    max-width: 100%;
+}
+.case2{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case2 img{
+    max-width: 100%;
+}
+.case3{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case3 img{
+    max-width: 100%;
+}
+.case4{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case4 img{
+    max-width: 100%;
+}
+.case5{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case5 img{
+    max-width: 100%;
+}
+.case6{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case6 img{
+    max-width: 100%;
+}
+.case7{ 
+    padding-bottom: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 0 5px;
+}
+.case7 img{
+    max-width: 100%;
+}
+.content{
+    width: 90%;
+    text-align: left;
+    padding-left: 25px;
+}
+.content .hidden-link{
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 0;
+    display: inline-block;
+    border: 0;
+}
+.content h2{
+    color: #1565c0;
+    padding: 10px 0;
+    font-weight: 500;
+}
+.content a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #EE3D49;
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #EE3D49;
+}
+.more-case{
+    width: 53%;
+    margin: auto;
+}
+.more-case a{
+    display: inline-block;
+    padding: 15px 40px;
+    margin: 200px 0 100px 0;
+    border: 2px solid #ee3d49;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #ee3d49;
+    color: #f8f9fa;
+}
+.speach{
+    padding: 100px;
+    text-align: center;
+}
+.speach p{
+    color: #1565c3;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.speach h4{
+    padding: 28px;
+    font-size: 22px;
+    color: #1565c3;
+}
+.our-team{
+    background-image: url(../images/mac_banner_final.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:80px;
+}
+.our-team-head{
+     padding: 80px;
+}
+.our-team-head span{}
+.our-team-head h3{
+    color: #1565c0;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.team-member-id{
+    overflow: hidden;
+}
+.tear-member1{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.tear-member1 img{
+    max-width: 100%
+}
+.tear-member2{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.tear-member2 img{
+    max-width: 100%
+}
+.tear-member3{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.tear-member3 img{
+    max-width: 100%
+}
+.tear-member4{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.tear-member4 img{
+    max-width: 100%
+}
+.profession{
+    padding: 30px 20px;
+    background-color: #fff;
+}
+.profession h5{
+    color: #1565c0;
+    font-size: 16px;
+    padding: 10px 0;
+}
+.profession p{
+    color: #6ab5ecd1;
+    font-size: 11px;
+    padding: 10px 0;
+}
+.profession a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #EE3D49;
+    display: inline-block;
+    padding: 4px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #EE3D49;
+}
+.chat-link{
+    background-color: #F8F9FA;
+    padding: 100px 0;
+}
+.chat-linking{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+.chat-linking h6{
+    font-size: 30px;
+    color: #ee3d49;
+}
+.chat-linking a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ee3d49;
+    border-bottom: 1px solid;
+}
+.contact-us{
+
+overflow: hidden;
+
+padding: 100px 0;
+}
+.address{
+    float: left;
+    width: 35%;
+}
+.address a{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #1565c0;
+    padding: 15px;
+}
+
+.social{
+    float: left;
+    width: 35%;
+    margin-left: 300px;
+}
+.social ul{
+}
+.social ul li{
+    font-size: 22px;
+}
+.social ul li a{
+    padding: 10px;
+    color: #1565c0;
+    text-decoration: none;
+}
